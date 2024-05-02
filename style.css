@@ -8,11 +8,18 @@ body {
   font-family: sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
 .desktop-banner {
   display: block;
   max-width: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: -10;
 }
 
@@ -36,6 +43,14 @@ nav {
   padding: 0 25px;
   padding-top: 60px;
   justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  flex: 1;
+  max-width: 1200px;
+}
+
+.logo {
+  font-size: 1.5rem;
 }
 
 .nav-links {
@@ -75,7 +90,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 900px) {
   .nav-links {
     display: flex;
     list-style-type: none;
