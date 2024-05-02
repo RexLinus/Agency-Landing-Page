@@ -26,6 +26,18 @@
   z-index: -10;
 }
 
+nav {
+  position: relative;
+  display: flex;
+  padding: 0 25px;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .desktop-banner {
     display: none;
@@ -45,5 +57,15 @@
   .mobile-banner {
     display: block;
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .ham-icon {
+    display: none;
   }
 }
