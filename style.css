@@ -78,6 +78,19 @@ nav {
 @media screen and (min-width: 730px) {
   .nav-links {
     display: flex;
+    list-style-type: none;
+    gap: 24px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  .nav-links li a:hover {
+    color: #b9f2a1;
   }
 
   .ham-icon {
