@@ -11,30 +11,8 @@ body {
 header {
   display: flex;
   justify-content: center;
-}
-
-.desktop-banner {
-  display: block;
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -10;
-}
-
-.tablet-banner {
-  display: none;
-  position: absolute;
-  top: 0;
-  z-index: -10;
-}
-
-.mobile-banner {
-  display: none;
-  position: absolute;
-  top: 0;
-  z-index: -10;
+  background: linear-gradient(to right, #659365, #073340);
+  min-height: 100vh;
 }
 
 nav {
@@ -43,7 +21,7 @@ nav {
   padding: 0 25px;
   padding-top: 60px;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   color: #fff;
   flex: 1;
   max-width: 1200px;
@@ -66,28 +44,6 @@ nav {
   border-radius: 10px;
   border: none;
   outline: none;
-}
-
-@media screen and (max-width: 1024px) {
-  .desktop-banner {
-    display: none;
-  }
-
-  .tablet-banner {
-    display: block;
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  .tablet-banner {
-    display: none;
-  }
-
-  .mobile-banner {
-    display: block;
-    max-width: 100%;
-  }
 }
 
 @media screen and (min-width: 900px) {
