@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #659365;
+  --secondary-color: #073340;
+  --font-size-medium: 1.125rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +17,11 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, #659365, #073340);
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   min-height: 100vh;
 }
 
@@ -57,7 +67,7 @@ nav {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: var(--font-size-medium);
   }
 
   .nav-links li a:hover {
