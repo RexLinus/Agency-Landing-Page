@@ -107,3 +107,31 @@ nav {
 .marketing-image {
   padding-top: 30px;
 }
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-buttons button {
+  width: 200px;
+  padding: 15px 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+}
+
+.hero-buttons .get-started {
+  background-color: #b9f2a1;
+}
+
+.hero-buttons .explore-more {
+  border: 2px solid #b9f2a1;
+  background-color: transparent;
+  color: #fff;
+}
