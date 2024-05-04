@@ -23,12 +23,12 @@ header {
     var(--secondary-color)
   );
   min-height: 100vh;
+  padding: 0 25px;
 }
 
 nav {
   position: relative;
   display: flex;
-  padding: 0 25px;
   padding-top: 60px;
   justify-content: space-between;
   align-items: start;
