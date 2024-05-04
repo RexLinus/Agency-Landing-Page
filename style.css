@@ -28,6 +28,7 @@ header {
   );
   min-height: 100vh;
   padding: 0 25px;
+  align-items: center;
 }
 
 nav {
@@ -38,6 +39,7 @@ nav {
   align-items: start;
   color: #fff;
   max-width: 1200px;
+  width: 100%;
 }
 
 .logo {
