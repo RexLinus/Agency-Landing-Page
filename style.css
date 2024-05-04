@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -98,4 +102,8 @@ nav {
 
 .text-green-light {
   color: #b9f2a1;
+}
+
+.marketing-image {
+  padding-top: 30px;
 }
