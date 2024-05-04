@@ -16,7 +16,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   background: linear-gradient(
     to right,
     var(--primary-color),
@@ -33,7 +33,6 @@ nav {
   justify-content: space-between;
   align-items: start;
   color: #fff;
-  flex: 1;
   max-width: 1200px;
 }
 
