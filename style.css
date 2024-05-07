@@ -142,3 +142,22 @@ nav {
   background-color: transparent;
   color: #fff;
 }
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    flex-direction: row;
+  }
+
+  .hero .introduction-text {
+    text-align: left;
+  }
+
+  .hero-buttons {
+    align-items: start;
+  }
+
+  .introduction-text h1 {
+    font-size: 3rem;
+    max-width: 600px;
+  }
+}
