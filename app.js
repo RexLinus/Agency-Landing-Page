@@ -3,4 +3,5 @@ const navLinks = document.querySelector(".nav-links");
 
 hamIcon.addEventListener("click", () => {
   navLinks.classList.toggle("transformed");
+  document.body.classList.toggle("overflow-hidden");
 });

@@ -18,6 +18,10 @@ body {
   font-family: sans-serif;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 header {
   display: flex;
   flex-direction: column;
