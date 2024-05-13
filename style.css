@@ -103,6 +103,10 @@ nav {
   }
 }
 
+.ham-icon {
+  z-index: 10;
+}
+
 @media screen and (min-width: 900px) {
   .nav-links {
     display: flex;
