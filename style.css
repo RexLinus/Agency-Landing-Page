@@ -61,6 +61,48 @@ nav {
   outline: none;
 }
 
+@media screen and (max-width: 900px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--secondary-color)
+    );
+  }
+
+  .transformed {
+    left: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #073340;
+    border-radius: 10px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
 @media screen and (min-width: 900px) {
   .nav-links {
     display: flex;
