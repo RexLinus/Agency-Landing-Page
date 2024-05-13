@@ -80,6 +80,7 @@ nav {
       var(--primary-color),
       var(--secondary-color)
     );
+    transition: 0.5s;
   }
 
   .transformed {
