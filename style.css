@@ -142,6 +142,9 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
 }
 
 .introduction-text {
