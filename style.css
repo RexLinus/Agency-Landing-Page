@@ -220,3 +220,33 @@ nav {
     max-width: 600px;
   }
 }
+
+.testimonials {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.testimonials-text {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.testimonials-text h2 {
+  font-size: 2.2rem;
+  padding-bottom: 10px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
