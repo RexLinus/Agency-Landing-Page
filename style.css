@@ -35,6 +35,10 @@ header {
   align-items: center;
 }
 
+header button {
+  cursor: pointer;
+}
+
 nav {
   position: relative;
   display: flex;
