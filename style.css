@@ -298,16 +298,16 @@ nav {
   gap: 20px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 850px) {
   .video-text {
     text-align: left;
   }
   .video-presentation > div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
     justify-items: stretch;
-    align-items: start;
+    align-items: center;
   }
 
   .video {
