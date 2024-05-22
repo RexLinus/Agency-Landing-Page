@@ -250,3 +250,44 @@ nav {
   align-items: center;
   gap: 80px;
 }
+
+.video-presentation {
+  background-color: rgb(185, 242, 161, 0.4);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-presentation div {
+  display: grid;
+  place-items: center;
+  max-width: 1200px;
+  padding: 40px;
+  gap: 40px;
+}
+
+.video-presentation div h2 {
+  font-size: 2rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video img:first-child {
+  width: 100%;
+}
+
+.video img:last-child {
+  position: absolute;
+  cursor: pointer;
+}
+
+.video-presentation div button.btn-contact {
+  width: 100%;
+  max-width: 200px;
+}
