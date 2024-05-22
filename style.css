@@ -233,12 +233,12 @@ nav {
   justify-content: space-between;
 }
 
-.testimonials-text {
+.section-text {
   text-align: center;
   padding-bottom: 30px;
 }
 
-.testimonials-text h2 {
+.section-text h2 {
   font-size: 2.2rem;
   padding-bottom: 10px;
 }
