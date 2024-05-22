@@ -259,7 +259,7 @@ nav {
   justify-content: center;
 }
 
-.video-presentation div {
+.video-presentation > div {
   display: grid;
   place-items: center;
   max-width: 1200px;
