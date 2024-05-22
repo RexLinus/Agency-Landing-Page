@@ -292,11 +292,14 @@ nav {
   max-width: 200px;
 }
 
+.video-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media screen and (min-width: 1000px) {
-  .vide-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  .video-text {
     text-align: left;
   }
   .video-presentation > div {
