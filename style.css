@@ -381,6 +381,10 @@ nav {
   gap: 40px;
 }
 
+.card > img {
+  height: 180px;
+}
+
 .cards .card:hover {
   box-shadow: 0 0 1px 5px rgba(10, 51, 90, 0.3);
   transform: scale(1.02);
