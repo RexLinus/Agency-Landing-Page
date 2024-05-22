@@ -333,6 +333,7 @@ nav {
   box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.3);
   padding: 10px;
   margin: 5px;
+  transition: 0.5s;
 }
 
 .card-text {
@@ -378,4 +379,9 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+.cards .card:hover {
+  box-shadow: 0 0 1px 5px rgba(10, 51, 90, 0.3);
+  transform: scale(1.02);
 }
