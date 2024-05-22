@@ -360,3 +360,14 @@ nav {
   font-size: 0.875rem;
   color: #5d5a5a;
 }
+
+.services {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
