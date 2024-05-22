@@ -298,6 +298,10 @@ nav {
   gap: 20px;
 }
 
+.video img:first-child {
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 850px) {
   .video-text {
     text-align: left;
