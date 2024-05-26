@@ -452,7 +452,7 @@ nav {
 }
 
 .features ul li::before {
-  content: "✔";
+  content: url('./img/check-img.png');
   position: absolute;
   left: 40px;
 }
