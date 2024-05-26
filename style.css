@@ -452,7 +452,7 @@ nav {
 }
 
 .features ul li::before {
-  content: "✓";
+  content: "✔";
   position: absolute;
   left: 40px;
 }
