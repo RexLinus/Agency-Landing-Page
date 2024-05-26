@@ -406,6 +406,7 @@ nav {
   border-radius: 15px;
 }
 
+
 .plan-card-header {
   display: flex;
   flex-direction: column;
@@ -426,4 +427,29 @@ nav {
   font-size: 1rem;
   font-weight: 500;
   color: #999;
+}
+
+.features {
+  width: 100%;
+}
+
+.features ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+
+}
+
+.features ul li {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.features ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 40px;
 }
