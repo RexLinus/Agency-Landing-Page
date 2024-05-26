@@ -404,7 +404,7 @@ nav {
   justify-content: space-around;
   background-color: white;
   border-radius: 15px;
-  padding: 20px 40px;
+  padding: 20px;
   box-shadow: 0px 0px 1px 3px #659365;
 }
 
@@ -440,21 +440,27 @@ nav {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   width: 100%;
+  text-align: center;
 
 }
 
 .features ul li {
   width: 100%;
-  text-align: center;
   position: relative;
+  max-width: 200px;
+  text-align: center;
+  
+
+
 }
 
 .features ul li::before {
   content: url('./img/check-img.png');
   position: absolute;
-  left: 40px;
+  left: -10px;
 }
 
 .plans button {
