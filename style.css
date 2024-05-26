@@ -389,3 +389,8 @@ nav {
   box-shadow: 0 0 1px 5px rgba(10, 51, 90, 0.3);
   transform: scale(1.02);
 }
+
+.plans {
+  background-color: #B9F2A1;
+  padding: 80px;
+}
