@@ -475,3 +475,15 @@ nav {
   font-size: 1.1rem;
   cursor: pointer;
 }
+
+.plan-card.premium {
+  background: rgb(7,51,64);
+  background: linear-gradient(355deg, rgba(7,51,64,1) 0%, rgba(101,147,101,1) 100%);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+
+.plan-card.premium .plan-card-header p span {
+  color: #fff;
+}
