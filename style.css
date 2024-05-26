@@ -496,3 +496,10 @@ nav {
 .plan-card.premium .plan-card-header p span {
   color: #fff;
 }
+
+@media screen and (min-width : 1175px) {
+  .all-cards {
+    gap: 0;
+  }
+}
+
