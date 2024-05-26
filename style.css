@@ -432,6 +432,15 @@ nav {
   color: #999;
 }
 
+.all-cards {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content : center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
 .features {
   width: 100%;
 }
