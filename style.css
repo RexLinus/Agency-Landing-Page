@@ -391,7 +391,7 @@ nav {
 }
 
 .plans {
-  background-color: #B9F2A1;
+  background-color: #b9f2a1;
   padding: 80px;
 }
 
@@ -407,7 +407,6 @@ nav {
   padding: 20px;
   box-shadow: 0px 0px 1px 3px #659365;
 }
-
 
 .plan-card-header {
   display: flex;
@@ -436,7 +435,7 @@ nav {
   margin-top: 40px;
   display: flex;
   align-items: center;
-  justify-content : center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 50px;
 }
@@ -453,7 +452,6 @@ nav {
   gap: 20px;
   width: 100%;
   text-align: center;
-
 }
 
 .features ul li {
@@ -461,13 +459,10 @@ nav {
   position: relative;
   max-width: 200px;
   text-align: center;
-  
-
-
 }
 
 .features ul li::before {
-  content: url('./img/check-img.png');
+  content: url("./img/check-img.png");
   position: absolute;
   left: -10px;
 }
@@ -479,31 +474,34 @@ nav {
   border-radius: 10px;
   border: 0;
   outline: 0;
-  background-color: #B9F2A1;
+  background-color: #b9f2a1;
   font-weight: bold;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 .plan-card.premium {
-  background: rgb(7,51,64);
-  background: linear-gradient(355deg, rgba(7,51,64,1) 0%, rgba(101,147,101,1) 100%);
+  background: rgb(7, 51, 64);
+  background: linear-gradient(
+    355deg,
+    rgba(7, 51, 64, 1) 0%,
+    rgba(101, 147, 101, 1) 100%
+  );
   color: #fff;
   transform: scale(1.1);
 }
-
 
 .plan-card.premium .plan-card-header p span {
   color: #fff;
 }
 
-@media screen and (min-width : 1175px) {
+@media screen and (min-width: 1175px) {
   .all-cards {
     gap: 0;
   }
 }
 
-.portfolio  {
+.portfolio {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -518,13 +516,12 @@ nav {
   width: 100%;
   display: grid;
   gap: 30px;
-  grid-template-areas: 
-    'one'
-    'two'
-    'three'
-    'four'
-    'five'
-  ;
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
 }
 
 .portfolio .pictures img:nth-child(1) {
@@ -535,34 +532,28 @@ nav {
   grid-area: two;
 }
 
-
 .portfolio .pictures img:nth-child(3) {
   grid-area: three;
 }
-
 
 .portfolio .pictures img:nth-child(4) {
   grid-area: four;
 }
 
-
 .portfolio .pictures img:nth-child(4) {
   grid-area: five;
 }
-
 
 .portfolio .pictures img {
   width: 100%;
 }
 
-@media screen and (min-width : 500px) {
+@media screen and (min-width: 500px) {
   .portfolio .pictures {
     gap: 0;
-    grid-template-areas: 
-      'one two'
-      'three four'
-      'five five'
-    ;
+    grid-template-areas:
+      "one two"
+      "three four"
+      "five five";
   }
 }
-
