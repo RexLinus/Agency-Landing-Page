@@ -1,14 +1,16 @@
 // import components
+const headerURL = "./components/header.html";
 const portfolioURL = "./components/portfolio.html";
 
 // ham menu functionality
-const hamIcon = document.querySelector(".ham-icon");
-const navLinks = document.querySelector(".nav-links");
-
-hamIcon.addEventListener("click", () => {
-  navLinks.classList.toggle("transformed");
-  document.body.classList.toggle("overflow-hidden");
-});
+setTimeout(() => {
+  const hamIcon = document.querySelector(".ham-icon");
+  const navLinks = document.querySelector(".nav-links");
+  hamIcon.addEventListener("click", () => {
+    navLinks.classList.toggle("transformed");
+    document.body.classList.toggle("overflow-hidden");
+  });
+}, 2000);
 
 // function to the components to the index.html page
 function importComponent(url) {
@@ -22,4 +24,5 @@ function importComponent(url) {
 }
 
 // add the components in order
+importComponent(headerURL);
 importComponent(portfolioURL);
