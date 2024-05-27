@@ -517,6 +517,7 @@ nav {
 .portfolio .pictures {
   width: 100%;
   display: grid;
+  gap: 30px;
   grid-template-areas: 
     'one'
     'two'
@@ -553,3 +554,15 @@ nav {
 .portfolio .pictures img {
   width: 100%;
 }
+
+@media screen and (min-width : 500px) {
+  .portfolio .pictures {
+    gap: 0;
+    grid-template-areas: 
+      'one two'
+      'three four'
+      'five five'
+    ;
+  }
+}
+
