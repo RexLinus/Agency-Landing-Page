@@ -1,5 +1,6 @@
 // import components
 const headerURL = "./components/header.html";
+const testimonialURL = "./components/testimonial.html";
 const portfolioURL = "./components/portfolio.html";
 
 // ham menu functionality
@@ -25,4 +26,5 @@ function importComponent(url) {
 
 // add the components in order
 importComponent(headerURL);
+importComponent(testimonialURL);
 importComponent(portfolioURL);
