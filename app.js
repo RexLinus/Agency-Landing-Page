@@ -1,3 +1,7 @@
+// import components
+const portfolioURL = "./components/portfolio.html";
+
+// ham menu functionality
 const hamIcon = document.querySelector(".ham-icon");
 const navLinks = document.querySelector(".nav-links");
 
@@ -5,3 +9,17 @@ hamIcon.addEventListener("click", () => {
   navLinks.classList.toggle("transformed");
   document.body.classList.toggle("overflow-hidden");
 });
+
+// function to the components to the index.html page
+function importComponent(url) {
+  fetch(url)
+    .then((response) => {
+      return response.text();
+    })
+    .then((htmlContent) => {
+      document.body.innerHTML += htmlContent;
+    });
+}
+
+// add the components in order
+importComponent(portfolioURL);
