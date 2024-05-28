@@ -26,12 +26,10 @@ setTimeout(() => {
 }, 2000);
 
 // function to the components to the index.html page
-function importComponent(url) {
-  return fetch(url)
-    .then((response) => response.text())
-    .then((htmlContent) => {
-      document.body.innerHTML += htmlContent;
-    });
+async function importComponent(url) {
+  const response = await fetch(url);
+  const htmlContent = await response.text();
+  document.body.innerHTML += htmlContent;
 }
 
 async function loadComponentsInOrder(urls) {
@@ -40,5 +38,4 @@ async function loadComponentsInOrder(urls) {
   }
 }
 
-// add the components in order
 loadComponentsInOrder(components);
