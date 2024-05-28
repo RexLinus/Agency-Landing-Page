@@ -3,11 +3,17 @@
   padding: 80px;
 }
 
+@media screen and (max-width: 400px) {
+  .plans {
+    padding: 80px 30px;
+  }
+}
+
 .plan-card {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 530px;
+  width: 350px;
+  height: 600px;
   align-items: center;
   justify-content: space-around;
   background-color: white;
@@ -24,13 +30,14 @@
 }
 
 .plan-card-header h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .plan-card-header p {
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 1rem;
+  opacity: 0.8;
 }
 
 .plan-card-header p span {
@@ -67,6 +74,11 @@
   position: relative;
   max-width: 200px;
   text-align: center;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-color: rgba(128, 128, 128, 0.258);
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .features ul li::before {
@@ -78,13 +90,13 @@
 .plans button {
   width: 100%;
   max-width: 190px;
-  height: 60px;
+  height: 50px;
   border-radius: 10px;
   border: 0;
   outline: 0;
   background-color: #b9f2a1;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
