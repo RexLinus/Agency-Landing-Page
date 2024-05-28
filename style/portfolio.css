@@ -5,6 +5,10 @@
   padding-top: 90px;
 }
 
+.portfolio img {
+  width: 100%;
+}
+
 .portfolio .section-text {
   padding: 30px 80px;
 }
@@ -13,44 +17,5 @@
   width: 100%;
   display: grid;
   gap: 30px;
-  grid-template-areas:
-    "one"
-    "two"
-    "three"
-    "four"
-    "five";
-}
-
-.portfolio .pictures img:nth-child(1) {
-  grid-area: one;
-}
-
-.portfolio .pictures img:nth-child(2) {
-  grid-area: two;
-}
-
-.portfolio .pictures img:nth-child(3) {
-  grid-area: three;
-}
-
-.portfolio .pictures img:nth-child(4) {
-  grid-area: four;
-}
-
-.portfolio .pictures img:nth-child(4) {
-  grid-area: five;
-}
-
-.portfolio .pictures img {
-  width: 100%;
-}
-
-@media screen and (min-width: 500px) {
-  .portfolio .pictures {
-    gap: 0;
-    grid-template-areas:
-      "one two"
-      "three four"
-      "five five";
-  }
+  grid-template-rows: repeat(5, 1fr);
 }
