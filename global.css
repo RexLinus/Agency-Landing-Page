@@ -22,3 +22,19 @@ body {
 .overflow-hidden {
   overflow: hidden;
 }
+
+.section-text {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-text h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.section-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
