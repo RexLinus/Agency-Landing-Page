@@ -1,7 +1,7 @@
 // import components
 const headerURL = "./components/header.html";
 const testimonialURL = "./components/testimonial.html";
-const videoPresentation = "./components/video-presentation.html";
+const videoPresentationURL = "./components/video-presentation.html";
 const servicesURL = "./components/services.html";
 const plansURL = "./components/plans.html";
 const portfolioURL = "./components/portfolio.html";
@@ -30,7 +30,7 @@ function importComponent(url) {
 // add the components in order
 importComponent(headerURL);
 importComponent(testimonialURL);
-importComponent(videoPresentation);
+importComponent(videoPresentationURL);
 importComponent(servicesURL);
 importComponent(plansURL);
 importComponent(portfolioURL);
