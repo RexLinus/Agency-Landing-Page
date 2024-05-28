@@ -19,3 +19,16 @@
   gap: 30px;
   grid-template-rows: repeat(5, 1fr);
 }
+
+@media screen and (min-width: 700px) {
+  .portfolio .pictures {
+    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .pictures img:last-child {
+    grid-column: 1 / 3;
+    height: 100%;
+  }
+}
