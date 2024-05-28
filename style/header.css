@@ -27,7 +27,7 @@ nav {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .nav-links {
@@ -133,12 +133,12 @@ nav {
 }
 
 .introduction-text h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .introduction-text p {
-  padding-top: 30px;
-  font-size: 0.875rem;
+  padding: 30px 0px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -192,7 +192,7 @@ nav {
   }
 
   .introduction-text h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     max-width: 600px;
   }
 }
