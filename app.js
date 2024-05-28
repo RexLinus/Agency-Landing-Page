@@ -2,6 +2,7 @@
 const headerURL = "./components/header.html";
 const testimonialURL = "./components/testimonial.html";
 const videoPresentation = "./components/video-presentation.html";
+const servicesURL = "./components/services.html";
 const portfolioURL = "./components/portfolio.html";
 
 // ham menu functionality
@@ -29,4 +30,5 @@ function importComponent(url) {
 importComponent(headerURL);
 importComponent(testimonialURL);
 importComponent(videoPresentation);
+importComponent(servicesURL);
 importComponent(portfolioURL);
