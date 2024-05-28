@@ -27,11 +27,19 @@ setTimeout(() => {
   });
 }, 2000);
 
-// function to the components to the index.html page
+// function to append components to the index.html page
 async function importComponent(url) {
   const response = await fetch(url);
   const htmlContent = await response.text();
-  document.body.innerHTML += htmlContent;
+
+  // Create a temporary element to hold the HTML content
+  const tempElement = document.createElement("div");
+  tempElement.innerHTML = htmlContent;
+
+  // Append each child of the temporary element to the document body
+  tempElement.childNodes.forEach((node) => {
+    document.body.appendChild(node.cloneNode(true));
+  });
 }
 
 async function loadComponentsInOrder(urls) {
