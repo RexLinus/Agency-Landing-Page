@@ -5,7 +5,7 @@ const videoPresentationURL = "./components/video-presentation.html";
 const servicesURL = "./components/services.html";
 const plansURL = "./components/plans.html";
 const portfolioURL = "./components/portfolio.html";
-const contactUS = "./components/contactUS.html";
+const contactUS = "./components/contact-us.html";
 
 const components = [
   headerURL,
