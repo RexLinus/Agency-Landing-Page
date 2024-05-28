@@ -5,6 +5,7 @@ const videoPresentationURL = "./components/video-presentation.html";
 const servicesURL = "./components/services.html";
 const plansURL = "./components/plans.html";
 const portfolioURL = "./components/portfolio.html";
+const contactUS = "./components/contactUS.html";
 
 const components = [
   headerURL,
@@ -13,6 +14,7 @@ const components = [
   servicesURL,
   plansURL,
   portfolioURL,
+  contactUS,
 ];
 
 // ham menu functionality
