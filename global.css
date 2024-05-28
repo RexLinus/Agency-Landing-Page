@@ -56,3 +56,41 @@ body {
   width: 20px;
   height: auto;
 }
+
+.contact-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-form input {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.contact-first-name {
+  flex-grow: 1;
+  flex-basis: 150px;
+}
+
+.contact-email {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+
+.contact-text {
+  flex-grow: 3;
+  flex-basis: 350px;
+  height: 200px;
+}
+
+.contact-text input {
+  height: 100%;
+}
