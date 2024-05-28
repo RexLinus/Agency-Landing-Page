@@ -94,3 +94,13 @@ body {
 .contact-text input {
   height: 100%;
 }
+
+@media screen and (min-width: 900px) {
+  .contact-us {
+    flex-direction: row;
+  }
+  .contact-info {
+    flex: 4;
+    min-width: 500px;
+  }
+}
