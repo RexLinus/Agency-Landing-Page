@@ -6,6 +6,15 @@ const servicesURL = "./components/services.html";
 const plansURL = "./components/plans.html";
 const portfolioURL = "./components/portfolio.html";
 
+const components = [
+  headerURL,
+  testimonialURL,
+  videoPresentationURL,
+  servicesURL,
+  plansURL,
+  portfolioURL,
+];
+
 // ham menu functionality
 setTimeout(() => {
   const hamIcon = document.querySelector(".ham-icon");
@@ -18,19 +27,18 @@ setTimeout(() => {
 
 // function to the components to the index.html page
 function importComponent(url) {
-  fetch(url)
-    .then((response) => {
-      return response.text();
-    })
+  return fetch(url)
+    .then((response) => response.text())
     .then((htmlContent) => {
       document.body.innerHTML += htmlContent;
     });
 }
 
+async function loadComponentsInOrder(urls) {
+  for (const url of urls) {
+    await importComponent(url);
+  }
+}
+
 // add the components in order
-importComponent(headerURL);
-importComponent(testimonialURL);
-importComponent(videoPresentationURL);
-importComponent(servicesURL);
-importComponent(plansURL);
-importComponent(portfolioURL);
+loadComponentsInOrder(components);
